@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Box from './BoxComponent/Box';
 
 function App() {
+  let b1='box1';
+  let b2='box2';
+  let b3='box3';
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <>
+   <div class="box-perent">
+    <Box boxName={b1} />
+    <Box boxName={b2} />
+    <Box boxName={b3} />
+    <Box boxName={b3} />
+    <Box boxName={b3} />
+    <Box boxName={b3} />
     </div>
+    <hr></hr>
+   </>
   );
 }
 
