@@ -14,7 +14,7 @@ function App() {
     <Box boxName={b3} />
     <Box boxName={b3} />
     <Box boxName={b3} />
-    <Box boxName={b3} />
+    <Box boxName={b1} />
     </div>
     <hr></hr>
    </>
