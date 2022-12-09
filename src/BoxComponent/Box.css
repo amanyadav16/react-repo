@@ -1,9 +1,10 @@
 .b1{
     height: 200px;
     width: 200px;
-    background-color: yellow;
+    background-color: pink;
     margin: 20px;
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
+    color:black;
 }
