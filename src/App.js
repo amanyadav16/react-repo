@@ -20,7 +20,7 @@ function App() {
     <Box boxName={b6} />
     </div>
     <hr></hr>
-    <h1>Virat Kohali</h1>
+    <h1>Mr.Virat Kohli</h1>
    </>
   );
 }
